@@ -533,6 +533,11 @@ LRESULT WINAPI CtlProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			UnHKRec(hWnd);
 		if (HKRep_Flag)
 			UnHKRep(hWnd);
+		//非空闲时双停
+		if (USta == 1)
+			StopRecord();
+		if (USta == 2)
+			StopReplay();
 		DeleteObject(hFont);//销毁字体
 		PostQuitMessage(0);
 		break;
