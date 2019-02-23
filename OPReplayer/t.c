@@ -197,6 +197,8 @@ INT SetCTL(INT change)
 		EnableWindow(hBtn_Load, TRUE);
 		if (MemSta == 2)
 			EnableWindow(hBtn_Save, TRUE);//内存中有暂存录制信息可以保存
+		else
+			EnableWindow(hBtn_Save, FALSE);//内存中无暂存录制信息不能保存
 	}
 
 	return 0;
@@ -569,7 +571,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
 	RegisterClassEx(&WC);
 	ScreenWidth = GetSystemMetrics(SM_CXSCREEN);
 	ScreenHeight = GetSystemMetrics(SM_CYSCREEN);
-	hMainWND = CreateWindow(L"WND", L"OPReplayer", WS_OVERLAPPEDWINDOW ^ WS_THICKFRAME ^ WS_MAXIMIZEBOX, ScreenWidth / 2 - 178, ScreenHeight / 2 - 200, 356, 400, NULL, 0, 0, 0);
+	hMainWND = CreateWindow(L"WND", L"OPReplayer键鼠操作录制回放器", WS_OVERLAPPEDWINDOW ^ WS_THICKFRAME ^ WS_MAXIMIZEBOX, ScreenWidth / 2 - 178, ScreenHeight / 2 - 200, 356, 400, NULL, 0, 0, 0);
 	ShowWindow(hMainWND, 1);
 	UpdateWindow(hMainWND);
 

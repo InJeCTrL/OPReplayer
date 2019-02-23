@@ -1,103 +1,105 @@
 ﻿  t.c
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(119): warning C4047: “函数”:“LPARAM”与“unsigned short [3]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(119): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(122): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(122): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(125): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(125): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(138): warning C4047: “函数”:“LPARAM”与“unsigned short [2]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(138): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(141): warning C4047: “函数”:“LPARAM”与“LPWSTR”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(141): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(144): warning C4047: “函数”:“LPARAM”与“unsigned short [15]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(144): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(163): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(163): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(167): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(167): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(172): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(172): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(176): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(176): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(217): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(220): warning C4013: “CatchRecord”未定义；假设外部返回 int
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(222): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(232): warning C4013: “CatchReplay”未定义；假设外部返回 int
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(241): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(245): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(256): warning C4047: “函数”:“UINT”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(256): warning C4024: “MessageBoxW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(257): warning C4047: “函数”:“WPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(257): warning C4024: “SendMessageW”: 形参和实参 3 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(257): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(257): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(278): warning C4047: “函数”:“UINT”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(278): warning C4024: “MessageBoxW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(279): warning C4047: “函数”:“WPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(279): warning C4024: “SendMessageW”: 形参和实参 3 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(279): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(279): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(360): warning C4133: “=”: 从“HFONT”到“HWND”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(361): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(362): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(363): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(364): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(365): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(366): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(367): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(368): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(369): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(370): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(371): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(372): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(373): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(374): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(375): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(376): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(377): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(380): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(380): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(381): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(381): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(382): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(382): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(383): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(383): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(384): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(384): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(385): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(385): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(386): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(386): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(387): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(387): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(388): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(388): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(389): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(389): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(390): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(390): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(391): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(391): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(392): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(392): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(393): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(393): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(394): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(394): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(395): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(395): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(400): warning C4047: “函数”:“LPARAM”与“TCHAR [4]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(400): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(401): warning C4047: “函数”:“LPARAM”与“TCHAR [4]”的间接级别不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(401): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(429): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\code trunk\opreplayer\opreplayer\t.c(119): warning C4047: “函数”:“LPARAM”与“unsigned short [3]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(119): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(122): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(122): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(125): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(125): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(138): warning C4047: “函数”:“LPARAM”与“unsigned short [2]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(138): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(141): warning C4047: “函数”:“LPARAM”与“LPWSTR”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(141): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(144): warning C4047: “函数”:“LPARAM”与“unsigned short [15]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(144): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(163): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(163): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(167): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(167): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(172): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(172): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(176): warning C4047: “函数”:“LPARAM”与“unsigned short [5]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(176): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(219): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(222): warning C4013: “CatchRecord”未定义；假设外部返回 int
+d:\code trunk\opreplayer\opreplayer\t.c(224): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(234): warning C4013: “CatchReplay”未定义；假设外部返回 int
+d:\code trunk\opreplayer\opreplayer\t.c(243): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(247): warning C4047: “return”:“LRESULT”与“HOOKPROC”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(258): warning C4047: “函数”:“UINT”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(258): warning C4024: “MessageBoxW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(259): warning C4047: “函数”:“WPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(259): warning C4024: “SendMessageW”: 形参和实参 3 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(259): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(259): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(280): warning C4047: “函数”:“UINT”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(280): warning C4024: “MessageBoxW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(281): warning C4047: “函数”:“WPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(281): warning C4024: “SendMessageW”: 形参和实参 3 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(281): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(281): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(362): warning C4133: “=”: 从“HFONT”到“HWND”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(363): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(364): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(365): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(366): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(367): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(368): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(369): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(370): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(371): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(372): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(373): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(374): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(375): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(376): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(377): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(378): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(379): warning C4133: “函数”: 从“HWND”到“HINSTANCE”的类型不兼容
+d:\code trunk\opreplayer\opreplayer\t.c(382): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(382): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(383): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(383): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(384): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(384): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(385): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(385): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(386): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(386): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(387): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(387): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(388): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(388): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(389): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(389): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(390): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(390): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(391): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(391): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(392): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(392): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(393): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(393): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(394): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(394): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(395): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(395): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(396): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(396): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(397): warning C4047: “函数”:“LPARAM”与“void *”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(397): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(402): warning C4047: “函数”:“LPARAM”与“TCHAR [4]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(402): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(403): warning C4047: “函数”:“LPARAM”与“TCHAR [4]”的间接级别不同
+d:\code trunk\opreplayer\opreplayer\t.c(403): warning C4024: “SendMessageW”: 形参和实参 4 的类型不同
+d:\code trunk\opreplayer\opreplayer\t.c(431): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(130): note: 参见“_wfopen”的声明
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(454): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\code trunk\opreplayer\opreplayer\t.c(456): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(130): note: 参见“_wfopen”的声明
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(551): warning C4028: 形参 3 与声明不同
+d:\code trunk\opreplayer\opreplayer\t.c(553): warning C4028: 形参 3 与声明不同
   正在生成代码
-c:\users\administrator\desktop\test\opreplayer\opreplayer\t.c(339): warning C4716: “CatchReplay”: 必须返回一个值
-  All 16 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+d:\code trunk\opreplayer\opreplayer\t.c(341): warning C4716: “CatchReplay”: 必须返回一个值
+  16 of 16 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  OPReplayer.vcxproj -> C:\Users\Administrator\Desktop\Test\OPReplayer\Release\OPReplayer.exe
+  OPReplayer.vcxproj -> D:\Code Trunk\OPReplayer\Release\OPReplayer.exe
