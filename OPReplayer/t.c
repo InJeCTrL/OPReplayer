@@ -250,7 +250,7 @@ LRESULT CALLBACK OPReReplayProc(int nCode, WPARAM wParam, LPARAM lParam)
 //开始录制
 INT StartRecord(void)
 {
-	HHRecord = SetWindowsHookEx(WH_JOURNALRECORD, (HOOKPROC)&OPReRecordProc, GetModuleHandle(NULL), 0);
+	HHRecord = SetWindowsHookEx(WH_JOURNALRECORD, (HOOKPROC)&OPReRecordProc, GetModuleHandle(L"User32.dll"), 0);
 	nEMG = 0;
 
 	if (!HHRecord)
@@ -272,7 +272,7 @@ INT StopRecord(void)
 //开始回放
 INT StartReplay(void)
 {
-	HHReplay = SetWindowsHookEx(WH_JOURNALPLAYBACK, (HOOKPROC)&OPReReplayProc, GetModuleHandle(NULL), 0);
+	HHReplay = SetWindowsHookEx(WH_JOURNALPLAYBACK, (HOOKPROC)&OPReReplayProc, GetModuleHandle(L"User32.dll"), 0);
 	pEMG = 0;
 
 	if (!HHReplay)
