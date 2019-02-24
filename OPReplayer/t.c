@@ -250,7 +250,7 @@ LRESULT CALLBACK OPReReplayProc(int nCode, WPARAM wParam, LPARAM lParam)
 //开始录制
 INT StartRecord(void)
 {
-	HHRecord = SetWindowsHookEx(WH_JOURNALRECORD, (HOOKPROC)&OPReRecordProc, GetModuleHandle(L"User32.dll"), 0);
+	HHRecord = SetWindowsHookExW(WH_JOURNALRECORD, (HOOKPROC)&OPReRecordProc, GetModuleHandle(NULL), 0);
 	nEMG = 0;
 
 	if (!HHRecord)
@@ -272,7 +272,7 @@ INT StopRecord(void)
 //开始回放
 INT StartReplay(void)
 {
-	HHReplay = SetWindowsHookEx(WH_JOURNALPLAYBACK, (HOOKPROC)&OPReReplayProc, GetModuleHandle(L"User32.dll"), 0);
+	HHReplay = SetWindowsHookEx(WH_JOURNALPLAYBACK, (HOOKPROC)&OPReReplayProc, GetModuleHandle(NULL), 0);
 	pEMG = 0;
 
 	if (!HHReplay)
@@ -511,10 +511,10 @@ LRESULT WINAPI CtlProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		}
 		break;
 	case WM_OPRERROR://录制/回放异常
-		SetStatusTip(Status_Idle, Status_None);
 		//录制异常
 		if (USta == 1)
 		{
+			SetStatusTip(Status_Idle, Status_None);
 			SetCTL(1);
 			if (SendMessage(hBtn_MinRec, BM_GETCHECK, 0, 0) == BST_CHECKED)
 				ShowWindow(hMainWND, SW_SHOWDEFAULT);//录制结束正常显示
@@ -522,6 +522,7 @@ LRESULT WINAPI CtlProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		//回放异常
 		if (USta == 2)
 		{
+			SetStatusTip(Status_Idle, Status_None);
 			SetCTL(3);
 			if (SendMessage(hBtn_MinRep, BM_GETCHECK, 0, 0) == BST_CHECKED)
 				ShowWindow(hMainWND, SW_SHOWDEFAULT);//回放结束正常显示
@@ -559,6 +560,8 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
 	MSG msg;
 	WNDCLASSEX WC;//窗体类
 	INT ScreenWidth, ScreenHeight;//屏幕宽度、高度
+
+	BOOLEAN AAA = 0;
 
 	WC.cbSize = sizeof(WNDCLASSEX);
 	WC.style = CS_HREDRAW | CS_VREDRAW;
